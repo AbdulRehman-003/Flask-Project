@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="868" height="790.444" viewBox="0 0 868 790.444">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="1.175" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e6f1ff"/>
+      <stop offset="0.28" stop-color="#ddebfe"/>
+      <stop offset="1" stop-color="#186adf"/>
+    </radialGradient>
+    <filter id="Rectangle_8039" x="247" y="60.097" width="474" height="224" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feFlood flood-color="#186adf" flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_8040" x="0" y="208.097" width="474" height="224" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="16" result="blur-2"/>
+      <feFlood flood-color="#186adf" flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_8042" x="167" y="364.097" width="474" height="224" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="16" result="blur-3"/>
+      <feFlood flood-color="#186adf" flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_8043" x="264" y="526.097" width="473" height="224" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="16" result="blur-4"/>
+      <feFlood flood-color="#186adf" flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_8041" x="394" y="208.097" width="474" height="224" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="16" result="blur-5"/>
+      <feFlood flood-color="#186adf" flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_10475" data-name="Group 10475" transform="translate(-492 -3341.903)">
+    <path id="Path_64373" data-name="Path 64373" d="M41.859,36.248V12.083L20.929,0,0,12.083V36.248L20.929,48.331Z" transform="translate(1317.063 3958.159) rotate(180)" fill="#fff" stroke="#006ce5" stroke-miterlimit="10" stroke-width="1"/>
+    <g id="Group_10474" data-name="Group 10474">
+      <g id="Group_10473" data-name="Group 10473">
+        <path id="Path_65008" data-name="Path 65008" d="M-330.2,378.928V143.917a81.97,81.97,0,0,0-40.986-70.989l-203.523-117.5a81.972,81.972,0,0,0-81.971,0L-860.2,72.928a81.97,81.97,0,0,0-40.986,70.989V378.928A81.972,81.972,0,0,0-860.2,449.917l203.523,117.5a81.972,81.972,0,0,0,81.971,0l203.523-117.5A81.97,81.97,0,0,0-330.2,378.928Z" transform="translate(1570.85 3475.232)" fill="url(#radial-gradient)"/>
+        <path id="Path_64376" data-name="Path 64376" d="M1349.768,841.591V447.118L1008.125,249.883,666.48,447.118V841.591l341.645,197.236Z" transform="translate(-53.634 3092.77)" fill="none" stroke="#006ce5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" stroke-dasharray="0.01 12"/>
+        <g transform="matrix(1, 0, 0, 1, 492, 3341.9)" filter="url(#Rectangle_8039)">
+          <rect id="Rectangle_8039-2" data-name="Rectangle 8039" width="378" height="128" rx="40" transform="translate(295 105.1)" fill="#fff"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 492, 3341.9)" filter="url(#Rectangle_8040)">
+          <rect id="Rectangle_8040-2" data-name="Rectangle 8040" width="378" height="128" rx="40" transform="translate(48 253.1)" fill="#fff"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 492, 3341.9)" filter="url(#Rectangle_8042)">
+          <rect id="Rectangle_8042-2" data-name="Rectangle 8042" width="378" height="128" rx="40" transform="translate(215 409.1)" fill="#fff"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 492, 3341.9)" filter="url(#Rectangle_8043)">
+          <rect id="Rectangle_8043-2" data-name="Rectangle 8043" width="377" height="128" rx="40" transform="translate(312 571.1)" fill="#fff"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 492, 3341.9)" filter="url(#Rectangle_8041)">
+          <rect id="Rectangle_8041-2" data-name="Rectangle 8041" width="378" height="128" rx="40" transform="translate(442 253.1)" fill="#fff"/>
+        </g>
+        <g id="Group_10453" data-name="Group 10453" transform="translate(827.916 3476.914)">
+          <text id="_300_" data-name="300+" transform="translate(0.084 54.086)" fill="#003483" font-size="57" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">300</tspan><tspan y="0" fill="#f68f00">+</tspan></text>
+          <text id="Employees" transform="translate(156.989 47.569)" fill="rgba(24,106,223,0.5)" font-size="25" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">EMPLOYEES</tspan></text>
+        </g>
+        <g id="Group_10454" data-name="Group 10454" transform="translate(598.746 3625.065)">
+          <text id="_150_" data-name="150+" transform="translate(0 54)" fill="#003483" font-size="57" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">150</tspan><tspan y="0" fill="#f68f00">+</tspan></text>
+          <text id="Satisfied_Clients" data-name="Satisfied
+Clients" transform="translate(146.888 29.051)" fill="rgba(24,106,223,0.5)" font-size="25" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">SATISFIED</tspan><tspan x="0" y="33">CLIENTS</tspan></text>
+        </g>
+        <g id="Group_10456" data-name="Group 10456" transform="translate(765.626 3781.634)">
+          <text id="_10_" data-name="10+" transform="translate(0.374 54.366)" fill="#003483" font-size="57" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">10</tspan><tspan y="0" fill="#f68f00">+</tspan></text>
+          <text id="Years_of_Experience" data-name="Years of
+Experience" transform="translate(118.479 29.051)" fill="rgba(24,106,223,0.5)" font-size="25" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">YEARS OF</tspan><tspan x="0" y="33">EXPERIENCE</tspan></text>
+        </g>
+        <g id="Group_10457" data-name="Group 10457" transform="translate(862.219 3928.943)">
+          <text id="_95_" data-name="95+" transform="translate(0 68.31)" fill="#003483" font-size="57" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">95</tspan><tspan y="0" fill="#f68f00">+</tspan></text>
+          <text id="Client_Retention_Rate" data-name="Client
+Retention
+Rate" transform="translate(128.369 23)" fill="rgba(24,106,223,0.5)" font-size="24" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">CLIENT</tspan><tspan x="0" y="31">RETENTION</tspan><tspan x="0" y="62">RATE</tspan></text>
+        </g>
+        <g id="Group_10455" data-name="Group 10455" transform="translate(992.692 3625.065)">
+          <text id="_380_" data-name="380+" transform="translate(0 54)" fill="#003483" font-size="57" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">380</tspan><tspan y="0" fill="#f68f00">+</tspan></text>
+          <text id="Projects_Delivered" data-name="Projects
+Delivered" transform="translate(155.306 29.051)" fill="rgba(24,106,223,0.5)" font-size="25" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">PROJECTS</tspan><tspan x="0" y="33">DELIVERED</tspan></text>
+        </g>
+      </g>
+      <path id="Path_65097" data-name="Path 65097" d="M22.383,19.383V6.461L11.192,0,0,6.461V19.383l11.192,6.461Z" transform="translate(676.695 3515.755) rotate(-120)" fill="#ffd300"/>
+    </g>
+  </g>
+</svg>

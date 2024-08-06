@@ -1,0 +1,245 @@
+<section class="contact-us-section" style="background-color: #F4F6F7;" id="contact-section">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-6 gradient-col py-5 pe-5">
+                <div class="position-relative text-white">
+                    <h2 class="mb-4 pb-2">Tell us about your project</h2>
+                    <p class="text-large mb-4 pb-2">What happens next?</p>
+                    <div class="footer-steps">
+                        <div class="single-step">
+                            <div class="step-count text-large">1</div>
+                            <div class="step-content">An expert contacts you after having analyzed your requirements;</div>
+                        </div>
+                        <div class="single-step">
+                            <div class="step-count text-large">2</div>
+                            <div class="step-content">If needed, we sign an NDA to ensure the highest privacy level;</div>
+                        </div>
+                        <div class="single-step">
+                            <div class="step-count text-large">3</div>
+                            <div class="step-content">We submit a comprehensive project proposal with estimates, timelines, CVs, etc.</div>
+                        </div>
+                    </div>
+                    <div class="footer-logos">
+                        <div class="me-4 me-sm-5 mt-1">
+                            <a href="https://clutch.co/profile/techverx#review-1270836"><img src="{{ url_for('static', filename='images/svgs/clutch-white.svg') }}" alt="img"></a>
+                        </div>
+                        <div class="me-4 me-sm-5 mt-1">
+                            <a href="https://www.goodfirms.co/company/techverx"><img src="{{ url_for('static', filename='images/svgs/good-firms-white.svg') }}" alt="img"></a>
+                        </div>
+                        <div class=" me-4 me-sm-5 mt-">
+                            <a href="https://www.topdevelopers.co/profile/techverx"><img src="{{ url_for('static', filename='images/svgs/top-developers-white.svg') }}" alt="img"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 py-5">
+                <div class="form-box">
+                    <form class="home-page" method="post" enctype="multipart/form-data">
+                        <div class="row g-4">
+                            <div class="col-12 m-0"><div class="text-success" id="message"></div></div>
+                            <div class="col-12">
+                                <select class="form-select" name="user_subject" id="user_subject">
+                                    <option value="0">How can we help you?</option>
+                                    <option value="Mobile App Development">Mobile App Development</option>
+                                    <option value="Enterprise Software Development">Enterprise Software Development</option>
+                                    <option value="Web Development">Web Development</option>
+                                    <option value="Dedicated Teams">Dedicated Teams</option>
+                                    <option value="Fixed Price Project">Fixed Price Project</option>
+                                    <option value="IT Consulting">IT Consulting</option>
+                                    <option value="Internet of Things">Internet of Things</option>
+                                    <option value="FinTech">FinTech</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6"><input type="text" name="user_name" class="form-control" placeholder="Name*" required=""></div>
+                            <div class="col-md-6"><input type="email" name="user_email" class="form-control" placeholder="Email*" required=""></div>
+                            <div class="col-md-6"><input type="text" name="user_phone" class="form-control" placeholder="Phone"></div>
+                            <div class="col-md-6"><input type="text" name="user_company" class="form-control" placeholder="Company Name"></div>
+                            <div class="col-12">
+                                <!-- <div class="custom-white-wrapper">
+                                    <textarea name="user_message" class="form-control" placeholder="Your Message"></textarea>
+                                    <p class="char-limit">0 of 255 max characters</p>
+                                    <div class="border-t-2 my-3"></div>
+                                    <div class="d-flex align-items-center justify-content-end mobile-column-view">
+                                        <button type="submit" id="footer-form-submit" class="tv-btn tv-btn-outline-secondary wpcf7-form-control wpcf7-submit mt-4 mt-sm-0">Submit <img src="images/svgs/submit-btn-icon.svg" alt="img" class="ms-2" /><div class="loader"></div></button>
+                                    </div>
+                                </div> -->
+                                <div class="custom-white-wrapper">
+                                    <textarea name="user_message" class="form-control" placeholder="Your Message"></textarea>
+                                    <p class="char-limit">0 of 255 max characters</p>
+                                </div>
+                                
+                                
+                            </div>
+                            <div class="col-12">
+                                <p class="mb-0 text-gray">We will call you ASAP or you can <a href="#" class="text-secondary no-decoration">schedule a call</a></p>
+                            </div>
+                            <div class="col-12 d-flex flex-wrap align-items-center justify-content-between">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label text-secondary" for="flexCheckDefault">
+                                        I want to protect my data by signing an NDA
+                                    </label>
+                                </div>
+                                <div class="mobile-column-view">
+                                    <button type="submit" id="footer-form-submit" class="tv-btn tv-btn-outline-secondary wpcf7-form-control wpcf7-submit mt-4 mt-sm-0">Submit <img src="{{ url_for('static', filename='images/svgs/submit-btn-icon.svg') }}" alt="img" class="ms-2"><div class="loader"></div></button>
+                                </div>
+                            </div>      
+                            <input type="hidden" name="action" value="email_ftn">
+                            <input type="hidden" name="title" value="Home">
+                        
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section style="background-color: #F9FAFB;">
+    <div class="container py-5">
+            <div class="row contact-card-row gy-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="contact-card wow" style="visibility: hidden; animation-name: none;">
+                        <div class="left-col">
+                            <h6>USA</h6>
+                            <div class="contact-info">
+                                <div>+1 (844) 539 3562</div>
+                                <div>info@techverx.com</div>
+                                <div>6900 Dallas Pkwy, Plano, TX 75024</div>
+                            </div>
+                        </div>
+                        <div class="right-col">
+                            <img src="{{ url_for('static', filename='images/svgs/usa-office.svg') }}" alt="img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="contact-card wow" style="visibility: hidden; animation-name: none;">
+                        <div class="left-col">
+                            <h6>Canada</h6>
+                            <div class="contact-info">
+<!--                                 <div>(000) 000000</div> -->
+                                <div>info@techverx.com</div>
+                                <div>1280 Kestell Blvd Oakville ON L6H 0B7 Canada</div>
+                            </div>
+                        </div>
+                        <div class="right-col">
+                            <img src="{{ url_for('static', filename='images/svgs/canada-office.svg') }}" alt="img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="contact-card wow" style="visibility: hidden; animation-name: none;">
+                        <div class="left-col">
+                            <h6>Pakistan</h6>
+                            <div class="contact-info">
+                                <div>(042) 32535353</div>
+                                <div>info@techverx.com</div>
+                                <div>3P, Sir Syed Rd, Gulberg 2, Lahore, 54000</div>
+                            </div>
+                        </div>
+                        <div class="right-col">
+                            <img src="{{ url_for('static', filename='images/svgs/pakistan.svg') }}" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+<footer id="innovidio-main-footer">
+    <div class="container">
+        <section class="section-padding footer-top-section border-bottom wow" style="visibility: hidden; animation-name: none;">
+            <div class="footer-widget-area row gy-5">
+                <div class="footer-widget col">
+                    <div class="text-uppercase" style="margin-bottom: 16px;  font-size: 16px; font-family: Sf Pro Display Regular; color: #00337f; letter-spacing: 1px; font-weight: bold;">Products</div>
+                    <ul>
+                        <li><a href="/software-staff-augmentation-services-usa/">Team Augmentation</a></li>
+                        <li><a href="/fixed-price-software-development/">Fixed Price Projects</a></li>
+                        <li><a href="/project-discovery-workshop-services/">Discovery Workshop</a></li>
+                        <li><a href="/software-product-consulting-usa/">Product Consulting</a></li>
+                        <li><a href="/software-support-and-maintenance/">Support and Maintenance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-widget col">
+                    <div class="text-uppercase" style="margin-bottom: 16px;  font-size: 16px; font-family: Sf Pro Display Regular; color: #00337f; letter-spacing: 1px; font-weight: bold;">EXPERTISE</div>
+                    <ul>
+                        <li><a href="/custom-software-development-company-usa/">Custom Software Development</a></li>
+                        <li><a href="/web-application-development-company-usa/">Web App Development</a></li>
+                        <li><a href="/software-testing-and-quality-assurance/">QA &amp; Testing</a></li>
+                        <li><a href="/custom-mobile-app-development-company-usa/">Mobile App Development</a></li>
+                        <li><a href="/web-design-and-development-services/">UI/UX</a></li>
+                        <li><a href="/devops-consulting-and-solutions/">DevOps</a></li>
+                    </ul>
+                </div>
+                <div class="footer-widget col">
+                    <div class="text-uppercase" style="margin-bottom: 16px;  font-size: 16px; font-family: Sf Pro Display Regular; color: #00337f; letter-spacing: 1px; font-weight: bold;">Enterprise Solutions</div>
+                    <ul>
+                        <li><a href="/sharepoint-development-services-usa/">SharePoint</a></li>
+                        <li><a href="/ms-dynamics-development-and-integration-services/">MS Dynamics</a></li>
+                        <li><a href="/salesforce-development-and-consulting-services/">Salesforce</a></li>
+                        <li><a href="/workday-implementation-and-solutions/">Workday</a></li>
+                        <li><a href="/shopify-development-services-usa/">Shopify</a></li>
+                        <li><a href="/azure-and-aws-solutions/">Azure and AWS</a></li>
+                    </ul>
+                </div>
+                <div class="footer-widget col">
+                    <div class="text-uppercase" style="margin-bottom: 16px;  font-size: 16px; font-family: Sf Pro Display Regular; color: #00337f; letter-spacing: 1px; font-weight: bold;">Industry Solutions</div>
+                    <ul>
+                        <li><a href="/data-science-consulting-services/">Data Science</a></li>
+                        <li><a href="/internet-of-things-services-and-solutions/">Internet Of Things</a></li>
+                        <li><a href="/ar-vr-services-and-solutions/">AR/VR</a></li>
+                        <li><a href="/blockchain-app-development-and-consulting/">Blockchain</a></li>
+                    </ul>
+                </div>
+                <div class="footer-widget col">
+                    <div class="text-uppercase" style="margin-bottom: 16px;  font-size: 16px; font-family: Sf Pro Display Regular; color: #00337f; letter-spacing: 1px; font-weight: bold;">Company</div>
+                    <ul>
+                        <li><a href="/company/">About Us</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="career.html">Careers</a></li>
+                        <li><a href="/software-development-company-portfolio/">Case Studies</a></li>
+                        <li><a href="/our-valuable-clients/">Clients Feedback</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="section-padding footer-bottom-section wow" style="visibility: hidden; animation-name: none;">
+            <div class="row align-items-center text-darkblue gy-3">
+                <div class="col-md-4 d-flex flex-wrap align-items-center text-md-left
+                                    justify-content-md-left">
+                    <img src="{{ url_for('static', filename='images/svgs/techverx-blue.svg') }}" class="me-4" alt="img">
+                    <span class="mt-2 d-md-block d-none">© 2023 Techverx. All rights
+                            reserved.</span>
+                </div>
+                <div class="col-md-4 d-flex flex-wrap align-items-center
+                                    justify-content-md-center">
+                    <div class="d-flex flex-wrap align-items-center me-4 d-lg-block
+                                        d-none">
+                        <img src="{{ url_for('static', filename='images/world.svg') }}" class="me-2" alt="img">
+                        <select class="p-0 border-0 text-darkblue cursor-pointer d-inline-block h-auto bg-transparent text-dark w-auto sf-pro-display-regular">
+                            <option>Change Region</option>
+                            <option>Pakistan</option>
+                            <option>USA</option>
+                        </select>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/TechverxUSA"><i class="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/techverx"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/company/techverx/"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://www.youtube.com/watch?v=-aP-pnZlnfs"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex flex-wrap align-items-center
+                                    justify-content-md-end justify-content-left policy-links">
+                    <a href="privacy-policy.html" class="text-darkblue  me-4">Privacy Policy</a>
+                    <a href="/terms-of-use/" class="text-darkblue ">Terms of Use</a>
+                </div>
+                <div class="col-12 d-md-none d-block">
+                    <span class="mt-2">© 2023 Techverx. All rights reserved.</span>
+                </div>
+            </div>
+        </section>
+    </div>
+</footer>

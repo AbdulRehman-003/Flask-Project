@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>innovidio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="{{ url_for('static', filename='images/innovideo-favicon.png') }}"/>
+        <!-- Imports -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/animate.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/slick-theme.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/slick.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style2.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/common.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/header.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/footer.css') }}">
+        <style>
+            @font-face {
+                font-family: "Sf Pro Display Thin";
+                src: url("fonts/SF-Pro-Display-Thin.otf");
+            }
+            @font-face {
+                font-family: "Sf Pro Display Light";
+                src: url("fonts/SF-Pro-Display-Light.otf");
+            }
+            @font-face {
+                font-family: "Sf Pro Display Regular";
+                src: url("fonts/SF-Pro-Display-Regular.otf");
+            }
+
+            @font-face {
+                font-family: "Sf Pro Display Medium";
+                src: url("fonts/SF-Pro-Display-Medium.otf");
+            }
+
+            @font-face {
+                font-family: "Sf Pro Display Bold";
+                src: url("fonts/SF-Pro-Display-Bold.otf");
+            }
+        </style>
+    </head>
+    <body id="header">
+        {% include "components/header.html" %}
+
+        {% include "components/banner_section.html" %}
+
+        {% include "components/Services_section.html" %}
+
+        {% include "components/technologies_section.html"%}
+
+        {% include "components/body.html" %}
+
+        {% include "components/footer.html" %}
+
+        <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/slick.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/wow.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/custom.js') }}"></script>
+    </body>
+</html>    
