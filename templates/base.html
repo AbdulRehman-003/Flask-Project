@@ -16,40 +16,43 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='css/header.css') }}">
         <link rel="stylesheet" href="{{ url_for('static', filename='css/footer.css') }}">
         <style>
+
             @font-face {
                 font-family: "Sf Pro Display Thin";
-                src: url("fonts/SF-Pro-Display-Thin.otf");
+                src: url("static/fonts/SF-Pro-Display-Thin.otf");
             }
             @font-face {
                 font-family: "Sf Pro Display Light";
-                src: url("fonts/SF-Pro-Display-Light.otf");
+                src: url("static/fonts/SF-Pro-Display-Light.otf");
             }
             @font-face {
                 font-family: "Sf Pro Display Regular";
-                src: url("fonts/SF-Pro-Display-Regular.otf");
+                src: url("static/fonts/SF-Pro-Display-Regular.otf");
             }
 
             @font-face {
                 font-family: "Sf Pro Display Medium";
-                src: url("fonts/SF-Pro-Display-Medium.otf");
+                src: url("static/fonts/SF-Pro-Display-Medium.otf");
             }
 
             @font-face {
                 font-family: "Sf Pro Display Bold";
-                src: url("fonts/SF-Pro-Display-Bold.otf");
+                src: url("static/fonts/SF-Pro-Display-Bold.otf");
             }
         </style>
     </head>
     <body id="header">
         {% include "components/header.html" %}
 
-        {% include "components/banner_section.html" %}
+        {% include "components/body_section/banner_section.html" %}
 
-        {% include "components/Services_section.html" %}
+        {% include "components/body_section/Services_section.html" %}
         
-        {% include "components/technologies_section.html"%}
+        {% include "components/body_section/technologies_section.html"%}
 
-        {% include "components/body.html" %}
+        {% include "components/body_section/engagement_model.html"%}
+
+        {% include "components/body_section/Achievements_section.html" %}
 
         {% include "components/footer.html" %}
 
